@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme LastUpgradeVersion="2700" version="1.3">
+   <BuildAction parallelizeBuildables="NO" buildImplicitDependencies="YES">
+      <BuildActionEntries>
+         <BuildActionEntry buildForTesting="YES" buildForRunning="YES" buildForProfiling="YES" buildForArchiving="YES" buildForAnalyzing="YES">
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000301" BuildableName="OnePageiOS.app" BlueprintName="OnePageiOS" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+         </BuildActionEntry>
+         <BuildActionEntry buildForTesting="YES" buildForRunning="NO" buildForProfiling="NO" buildForArchiving="NO" buildForAnalyzing="NO">
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000302" BuildableName="OnePageiOSTests.xctest" BlueprintName="OnePageiOSTests" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+         </BuildActionEntry>
+         <BuildActionEntry buildForTesting="YES" buildForRunning="NO" buildForProfiling="NO" buildForArchiving="NO" buildForAnalyzing="NO">
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000303" BuildableName="OnePageiOSUITests.xctest" BlueprintName="OnePageiOSUITests" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <TestAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.IDEFoundation.Launcher.LLDB" shouldUseLaunchSchemeArgsEnv="NO" language="zh-Hans" region="CN">
+      <Testables>
+         <TestableReference skipped="NO" parallelizable="NO">
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000302" BuildableName="OnePageiOSTests.xctest" BlueprintName="OnePageiOSTests" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+         </TestableReference>
+         <TestableReference skipped="NO" parallelizable="NO">
+            <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000303" BuildableName="OnePageiOSUITests.xctest" BlueprintName="OnePageiOSUITests" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+         </TestableReference>
+      </Testables>
+      <MacroExpansion>
+         <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000301" BuildableName="OnePageiOS.app" BlueprintName="OnePageiOS" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+      </MacroExpansion>
+      <CommandLineArguments>
+         <CommandLineArgument argument="--test-store" isEnabled="YES"/>
+         <CommandLineArgument argument="864C46F1-C65C-4F99-9EC8-30C48DA88617" isEnabled="YES"/>
+      </CommandLineArguments>
+   </TestAction>
+   <LaunchAction buildConfiguration="Debug" selectedDebuggerIdentifier="Xcode.DebuggerFoundation.Debugger.LLDB" selectedLauncherIdentifier="Xcode.IDEFoundation.Launcher.LLDB" launchStyle="0" useCustomWorkingDirectory="NO" ignoresPersistentStateOnLaunch="NO" debugDocumentVersioning="YES" debugServiceExtension="internal" allowLocationSimulation="YES">
+      <BuildableProductRunnable runnableDebuggingMode="0">
+         <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000301" BuildableName="OnePageiOS.app" BlueprintName="OnePageiOS" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+      </BuildableProductRunnable>
+   </LaunchAction>
+   <ProfileAction buildConfiguration="Release" shouldUseLaunchSchemeArgsEnv="YES" savedToolIdentifier="" useCustomWorkingDirectory="NO" debugDocumentVersioning="YES">
+      <BuildableProductRunnable runnableDebuggingMode="0">
+         <BuildableReference BuildableIdentifier="primary" BlueprintIdentifier="000000000000000000000301" BuildableName="OnePageiOS.app" BlueprintName="OnePageiOS" ReferencedContainer="container:OnePageiOS.xcodeproj"/>
+      </BuildableProductRunnable>
+   </ProfileAction>
+   <AnalyzeAction buildConfiguration="Debug"/>
+   <ArchiveAction buildConfiguration="Release" revealArchiveInOrganizer="YES"/>
+</Scheme>

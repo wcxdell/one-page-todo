@@ -1,0 +1,350 @@
+{
+	archiveVersion = 1;
+	classes = {};
+	objectVersion = 56;
+	objects = {
+		000000000000000000000001 = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
+				TargetAttributes = {
+					000000000000000000000301 = {
+						CreatedOnToolsVersion = 27.0;
+						ProvisioningStyle = Automatic;
+					};
+					000000000000000000000302 = {
+						CreatedOnToolsVersion = 27.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 000000000000000000000301;
+					};
+					000000000000000000000303 = {
+						CreatedOnToolsVersion = 27.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 000000000000000000000301;
+					};
+				};
+			};
+			buildConfigurationList = 000000000000000000000701;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = ("zh-Hans", en, Base);
+			mainGroup = 000000000000000000000010;
+			productRefGroup = 000000000000000000000015;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				000000000000000000000301,
+				000000000000000000000302,
+				000000000000000000000303,
+			);
+		};
+		000000000000000000000010 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000011,
+				000000000000000000000012,
+				000000000000000000000111,
+				000000000000000000000112,
+				000000000000000000000013,
+				000000000000000000000014,
+				000000000000000000000015,
+			);
+			sourceTree = "<group>";
+		};
+		000000000000000000000011 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000101,
+				000000000000000000000102,
+				000000000000000000000103,
+				000000000000000000000104,
+				000000000000000000000105,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		000000000000000000000012 = {
+			isa = PBXGroup;
+			children = (
+				000000000000000000000106,
+				000000000000000000000107,
+				000000000000000000000108,
+				000000000000000000000109,
+				000000000000000000000110,
+				000000000000000000000116,
+				000000000000000000000117,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		000000000000000000000013 = {
+			isa = PBXGroup;
+			children = (000000000000000000000113, 000000000000000000000115, 000000000000000000000118);
+			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		000000000000000000000014 = {
+			isa = PBXGroup;
+			children = (000000000000000000000114);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		000000000000000000000015 = {
+			isa = PBXGroup;
+			children = (000000000000000000000120, 000000000000000000000121, 000000000000000000000122);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000000000101 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileApp.swift; sourceTree = "<group>"; };
+		000000000000000000000102 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileStyle.swift; sourceTree = "<group>"; };
+		000000000000000000000103 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileRoot.swift; sourceTree = "<group>"; };
+		000000000000000000000104 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileEditors.swift; sourceTree = "<group>"; };
+		000000000000000000000105 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileCalendar.swift; sourceTree = "<group>"; };
+		000000000000000000000106 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Store.swift; path = ../Sources/OnePage/Store.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000107 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SyncModel.swift; path = ../Sources/OnePage/SyncModel.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000108 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudSync.swift; path = ../Sources/OnePage/CloudSync.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000109 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalendarLayout.swift; path = ../Sources/OnePage/CalendarLayout.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000110 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Style.swift; path = ../Sources/OnePage/Style.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000111 = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		000000000000000000000112 = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		000000000000000000000113 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CloudSyncTests.swift; path = ../Tests/OnePageTests/CloudSyncTests.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000114 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnePageUITests.swift; sourceTree = "<group>"; };
+		000000000000000000000115 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSDataTests.swift; sourceTree = "<group>"; };
+		000000000000000000000116 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Localization.swift; path = ../Sources/OnePage/Localization.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000117 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocalizationCatalog.swift; path = ../Sources/OnePage/LocalizationCatalog.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000118 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LanguageTests.swift; path = ../Tests/OnePageTests/LanguageTests.swift; sourceTree = SOURCE_ROOT; };
+		000000000000000000000120 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnePageiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000121 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePageiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000122 = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OnePageiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		000000000000000000000201 = {isa = PBXBuildFile; fileRef = 000000000000000000000101; };
+		000000000000000000000202 = {isa = PBXBuildFile; fileRef = 000000000000000000000102; };
+		000000000000000000000203 = {isa = PBXBuildFile; fileRef = 000000000000000000000103; };
+		000000000000000000000204 = {isa = PBXBuildFile; fileRef = 000000000000000000000104; };
+		000000000000000000000205 = {isa = PBXBuildFile; fileRef = 000000000000000000000105; };
+		000000000000000000000206 = {isa = PBXBuildFile; fileRef = 000000000000000000000106; };
+		000000000000000000000207 = {isa = PBXBuildFile; fileRef = 000000000000000000000107; };
+		000000000000000000000208 = {isa = PBXBuildFile; fileRef = 000000000000000000000108; };
+		000000000000000000000209 = {isa = PBXBuildFile; fileRef = 000000000000000000000109; };
+		000000000000000000000210 = {isa = PBXBuildFile; fileRef = 000000000000000000000110; };
+		000000000000000000000211 = {isa = PBXBuildFile; fileRef = 000000000000000000000111; };
+		000000000000000000000213 = {isa = PBXBuildFile; fileRef = 000000000000000000000113; };
+		000000000000000000000214 = {isa = PBXBuildFile; fileRef = 000000000000000000000114; };
+		000000000000000000000215 = {isa = PBXBuildFile; fileRef = 000000000000000000000115; };
+		000000000000000000000216 = {isa = PBXBuildFile; fileRef = 000000000000000000000116; };
+		000000000000000000000217 = {isa = PBXBuildFile; fileRef = 000000000000000000000117; };
+		000000000000000000000218 = {isa = PBXBuildFile; fileRef = 000000000000000000000118; };
+		000000000000000000000301 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000711;
+			buildPhases = (000000000000000000000401, 000000000000000000000402, 000000000000000000000403);
+			buildRules = ();
+			dependencies = ();
+			name = OnePageiOS;
+			productName = OnePageiOS;
+			productReference = 000000000000000000000120;
+			productType = "com.apple.product-type.application";
+		};
+		000000000000000000000302 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000721;
+			buildPhases = (000000000000000000000411, 000000000000000000000412, 000000000000000000000413);
+			buildRules = ();
+			dependencies = (000000000000000000000501);
+			name = OnePageiOSTests;
+			productName = OnePageiOSTests;
+			productReference = 000000000000000000000121;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		000000000000000000000303 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 000000000000000000000731;
+			buildPhases = (000000000000000000000421, 000000000000000000000422, 000000000000000000000423);
+			buildRules = ();
+			dependencies = (000000000000000000000502);
+			name = OnePageiOSUITests;
+			productName = OnePageiOSUITests;
+			productReference = 000000000000000000000122;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		000000000000000000000401 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				000000000000000000000201,
+				000000000000000000000202,
+				000000000000000000000203,
+				000000000000000000000204,
+				000000000000000000000205,
+				000000000000000000000206,
+				000000000000000000000207,
+				000000000000000000000208,
+				000000000000000000000209,
+				000000000000000000000210,
+				000000000000000000000216,
+				000000000000000000000217,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		000000000000000000000402 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000403 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000211); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000411 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000213, 000000000000000000000215, 000000000000000000000218); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000412 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000413 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000421 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (000000000000000000000214); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000422 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000423 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		000000000000000000000501 = {isa = PBXTargetDependency; target = 000000000000000000000301; targetProxy = 000000000000000000000511; };
+		000000000000000000000502 = {isa = PBXTargetDependency; target = 000000000000000000000301; targetProxy = 000000000000000000000512; };
+		000000000000000000000511 = {isa = PBXContainerItemProxy; containerPortal = 000000000000000000000001; proxyType = 1; remoteGlobalIDString = 000000000000000000000301; remoteInfo = OnePageiOS; };
+		000000000000000000000512 = {isa = PBXContainerItemProxy; containerPortal = 000000000000000000000001; proxyType = 1; remoteGlobalIDString = 000000000000000000000301; remoteInfo = OnePageiOS; };
+		000000000000000000000601 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("DEBUG=1", "$(inherited)");
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		000000000000000000000602 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		000000000000000000000611 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepage.todo.ios;
+				PRODUCT_MODULE_NAME = OnePage;
+				PRODUCT_NAME = OnePageiOS;
+			};
+			name = Debug;
+		};
+		000000000000000000000612 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CURRENT_PROJECT_VERSION = 7;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks");
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepage.todo.ios;
+				PRODUCT_MODULE_NAME = OnePage;
+				PRODUCT_NAME = OnePageiOS;
+			};
+			name = Release;
+		};
+		000000000000000000000621 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepage.todo.ios.tests;
+				PRODUCT_MODULE_NAME = OnePageiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePageiOS.app/OnePageiOS";
+			};
+			name = Debug;
+		};
+		000000000000000000000622 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepage.todo.ios.tests;
+				PRODUCT_MODULE_NAME = OnePageiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OnePageiOS.app/OnePageiOS";
+			};
+			name = Release;
+		};
+		000000000000000000000631 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepage.todo.ios.uitests;
+				PRODUCT_MODULE_NAME = OnePageiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnePageiOS;
+			};
+			name = Debug;
+		};
+		000000000000000000000632 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = ("$(inherited)", "@executable_path/Frameworks", "@loader_path/Frameworks");
+				PRODUCT_BUNDLE_IDENTIFIER = com.onepage.todo.ios.uitests;
+				PRODUCT_MODULE_NAME = OnePageiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = OnePageiOS;
+			};
+			name = Release;
+		};
+		000000000000000000000701 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000601, 000000000000000000000602); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000711 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000611, 000000000000000000000612); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000721 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000621, 000000000000000000000622); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		000000000000000000000731 = {isa = XCConfigurationList; buildConfigurations = (000000000000000000000631, 000000000000000000000632); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+	};
+	rootObject = 000000000000000000000001;
+}
