@@ -1,5 +1,7 @@
 <div align="center">
 
+**简体中文** · [English](README.en.md)
+
 <img src="Assets/AppIcon.png" width="104" alt="一页待办应用图标" />
 
 # 一页待办 · OnePage
